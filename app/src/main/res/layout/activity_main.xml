@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context="com.example.nasrf.emergency.MainActivity"
+    android:paddingTop="120dp"
+    android:weightSum="1">
+
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.19"
+        android:color="#e5e5e5"
+        android:alpha="0.15"
+        android:onClick="addFamily"
+        android:text="Add Family Member" />
+
+    <Button
+        android:id="@+id/btnCallF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.19"
+        android:color="#e5e5e5"
+        android:alpha="0.15"
+        android:text="Call Family Member"
+        android:onClick="callFamily"/>
+
+    <Button
+        android:id="@+id/btnCallE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.19"
+        android:color="#e5e5e5"
+        android:alpha="0.15"
+        android:text="Call Emergency"
+        android:onClick="callEmergency"/>
+
+
+</LinearLayout>
