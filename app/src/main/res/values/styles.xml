@@ -8,4 +8,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="buttons_back">
+        <item name="android:background">@drawable/buttons_style</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:color">#DFDFDE</item>
+    </style>
+
 </resources>
