@@ -30,9 +30,9 @@ public class ADDFAMILY extends AppCompatActivity {
         row.put("name",name);
         row.put("number",phone);
         
-        long id = db.insert("members",null,row);
+        long id = db.insert("family_members",null,row);
         
-        if(id<0){
+        if(id>0){
             Toast.makeText(this, "Contact Added Succesfully", Toast.LENGTH_SHORT).show();
         }
         else {

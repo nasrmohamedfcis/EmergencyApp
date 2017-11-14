@@ -20,7 +20,7 @@ public class CallEmergency extends AppCompatActivity {
 
     public void callPolice(View view) {
 
-        Intent out = new Intent(Intent.ACTION_CALL, Uri.parse("tel:122 "));
+        Intent out = new Intent(Intent.ACTION_CALL, Uri.parse("tel:122"));
 
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling

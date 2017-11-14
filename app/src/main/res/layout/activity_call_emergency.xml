@@ -33,6 +33,7 @@
                 style="@style/buttons_back"
                 android:layout_weight="2"
                 android:text="Police"
+                android:onClick="callPolice"
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
@@ -54,6 +55,7 @@
                 android:layout_height="wrap_content" />
 
             <Button
+                android:onClick="callAmbu"
                 style="@style/buttons_back"
                 android:layout_weight="2"
                 android:text="Ambulance"
@@ -78,6 +80,7 @@
                 android:layout_height="wrap_content" />
 
             <Button
+                android:onClick="callFire"
                 style="@style/buttons_back"
                 android:layout_weight="2"
                 android:text="FireFighter"

@@ -27,15 +27,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void addFamily(View view) {
-        if(familyAdded==false) {
-            Intent in = new Intent(MainActivity.this, ADDFAMILY.class);
-            startActivity(in);
-            familyAdded=true;
-        }
-
-        else{
-            Toast.makeText(this, "a Family member is already added", Toast.LENGTH_SHORT).show();
-        }
+        Intent in = new Intent(MainActivity.this, ADDFAMILY.class);
+        startActivity(in);
     }
 
     public void callEmergency(View view) {
