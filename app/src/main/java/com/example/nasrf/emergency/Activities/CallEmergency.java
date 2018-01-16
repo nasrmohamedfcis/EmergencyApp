@@ -1,4 +1,4 @@
-package com.example.nasrf.emergency;
+package com.example.nasrf.emergency.Activities;
 
 import android.Manifest;
 import android.content.Intent;
@@ -8,6 +8,8 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.nasrf.emergency.R;
 
 public class CallEmergency extends AppCompatActivity {
 

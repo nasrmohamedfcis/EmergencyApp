@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:paddingTop="120dp"
     android:background="@color/colorPrimaryDark"
-    tools:context="com.example.nasrf.emergency.ADDFAMILY"
+    tools:context="com.example.nasrf.emergency.Activities.ADDFAMILY"
     android:orientation="vertical">
 
     <LinearLayout

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/colorPrimaryDark"
-    tools:context="com.example.nasrf.emergency.MainActivity"
+    tools:context="com.example.nasrf.emergency.Activities.MainActivity"
     android:padding="12dp"
     android:weightSum="4">
 
@@ -46,8 +46,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Call Family Member"
-            android:onClick="callFamily"/>
+            android:onClick="callFamily"
+            android:text="Call Family Member" />
 
         <Button
             style="@style/buttons_back"

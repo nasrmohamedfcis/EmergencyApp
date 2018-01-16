@@ -1,4 +1,4 @@
-package com.example.nasrf.emergency;
+package com.example.nasrf.emergency.Activities;
 
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.nasrf.emergency.R;
+import com.example.nasrf.emergency.DataBase.myHelper;
 
 public class ADDFAMILY extends AppCompatActivity {
     private EditText etName , etPhone;

@@ -1,4 +1,4 @@
-package com.example.nasrf.emergency;
+package com.example.nasrf.emergency.DataBase;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
