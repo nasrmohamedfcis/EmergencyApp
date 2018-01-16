@@ -12,7 +12,7 @@ public class myHelper extends SQLiteOpenHelper {
 
 
     public myHelper(Context context) {
-        super(context,"family_members", null, 1);
+        super(context,"family_members", null, 2);
     }
 
     @Override
