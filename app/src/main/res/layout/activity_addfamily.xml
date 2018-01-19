@@ -19,7 +19,7 @@
             android:id="@+id/txtName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enter The Name: "
+            android:text="@string/enter_name"
             android:textSize="35dp"/>
 
         <EditText
@@ -40,7 +40,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enter The phone number: "
+            android:text="@string/enter_phoneno"
             android:textSize="33dp"/>
 
         <EditText
@@ -55,7 +55,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ADD"
+        android:text="@string/add"
         android:onClick="addCont"
         style="@style/buttons_back"
         android:layout_gravity="center" />

@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Emergency</string>
+    <string name="add_family_member">Add Family Member</string>
+    <string name="call_family_member">Call Family Member</string>
+    <string name="call_emergency">Call Emergency</string>
+    <string name="police">Police</string>
+    <string name="ambulance">Ambulance</string>
+    <string name="firefighters">FireFighters</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_phoneno">Enter Phone Number</string>
+    <string name="add">Add</string>
+    <string name="call">Call</string>
+    <string name="sendSOS">Send SOS</string>
+    <string name="send_sos_to_all">Send SOS to Everyone</string>
+    <string name="GPS_on">please TURN ON your GPS</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
 </resources>

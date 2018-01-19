@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="addFamily"
-            android:text="Add Family Member" />
+            android:text="@string/add_family_member" />
 
         <Button
             style="@style/buttons_back"
@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="callFamily"
-            android:text="Call Family Member" />
+            android:text="@string/call_family_member" />
 
         <Button
             style="@style/buttons_back"
@@ -55,7 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Call Emergency"
+            android:text="@string/call_emergency"
             android:onClick="callEmergency"/>
 
     </LinearLayout>
